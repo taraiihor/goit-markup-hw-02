@@ -1,0 +1,101 @@
+:root {
+  --primery-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --button: #ffffff;
+}
+
+.list {
+  list-style: none;
+}
+.logo {
+  color: black;
+}
+.site-nav .link {
+  color: var(--title-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
+.mail .link {
+  color: var(--primery-text-color);
+}
+
+.mail .link:hover,
+.mail .link:focus {
+  color: var(--accent-color);
+}
+
+.hero .title {
+  color: white;
+}
+
+.hero .button {
+  background-color: var(--accent-color);
+  color: var(--button);
+}
+.section .title {
+  color: var(--title-text-color);
+}
+
+.section .subtitle {
+  color: var(--title-text-color);
+}
+
+.section .text {
+  color: var(--primery-text-color);
+}
+
+.section .desc {
+  color: var(--button);
+}
+
+.section .autor {
+  color: var(--title-text-color);
+}
+.address .text {
+  color: var(--button);
+}
+
+.address .mail {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer .button {
+  background-color: var(--accent-color);
+  color: var(--button);
+}
+
+.footer .title {
+  color: var(--button);
+}
+
+.footer .copiraite {
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.items .link {
+  background-color: #f5f4fa;
+  color: var(--title-text-color);
+}
+
+.items .link:hover,
+.items .link:focus {
+  background-color: var(--accent-color);
+  color: var(--button);
+}
+
+.items .title {
+  color: var(--title-text-color);
+}
+
+.items .text {
+  color: var(--primery-text-color);
+}
